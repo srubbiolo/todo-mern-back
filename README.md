@@ -1,33 +1,31 @@
----BACK-END---
-npm init --yes  (creates package.json)
-npm i express --save (install express)
-create server.js (basic)
-execute server.js (just to test)
-un-hardcode port 8080
-install standard nodemon (for updating server on change)
-set script lint to stardard (actually found node doesn't use commas for end of line of code, :) 
-npm i dotenv --save 
-npm i mongoose (to connect to mongo db)
-connect mongoose
-hide .env from git
-handle connection to db errors
-Create model, todo.js app.js
-npm i body-parser --save
-create controllers folder
-npm i multer --save
-images now can be uploaded to the app
-all endpoints work, POST, GET, PUT. TODO: document using something like swagger, unit test and make GET smart
-Upload all to GIT
+---BACK-END--- <br />
+npm init --yes  (creates package.json) <br />
+npm i express --save (install express) <br />
+create server.js (basic) <br />
+execute server.js (just to test) <br />
+un-hardcode port 8080 <br />
+install standard nodemon (for updating server on change) <br />
+set script lint to stardard (actually found node doesn't use commas for end of line of code, :) <br />
+npm i dotenv --save <br />
+npm i mongoose (to connect to mongo db) <br />
+connect mongoose <br />
+hide .env from git <br />
+handle connection to db errors <br />
+Create model, todo.js app.js <br />
+npm i body-parser --save <br />
+create controllers folder <br />
+npm i multer --save <br />
+images now can be uploaded to the app <br />
+all endpoints work, POST, GET, PUT. TODO: document using something like swagger, unit test and make GET smart <br />
+Upload all to GIT <br />
 
-To run:
-1)download repo
-2) 'npm install'
-3) create .env file at base directory and set this vars
-APP_PORT=8081
-APP_HOST=http://localhost
-
-DB_USER=gallardo
-DB_PASSWORD=marcelo
-
-4)'npm run start-dev'
-5) ENJOY! )?
+To run: <br />
+1)download repo <br /> <br />
+2) npm install <br />
+3) create .env file at base directory and set this vars <br />
+APP_PORT=8081 <br />
+APP_HOST=http://localhost <br />
+DB_USER=gallardo <br />
+DB_PASSWORD=marcelo <br /> 
+4)npm run start-dev <br />
+5) ENJOY! )?  <br />
